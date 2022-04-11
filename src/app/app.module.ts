@@ -9,6 +9,8 @@ import { EventHandlingComponent } from './event-handling/event-handling.componen
 import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.component';
 import { CounterButtonComponent } from './counter-button/counter-button.component';
 import { CongratulationsMessageComponent } from './congratulations-message/congratulations-message.component';
+import { CounterButtonPageComponent } from './counter-button-page/counter-button-page.component';
+import { ParamsExampleComponent } from './params-example/params-example.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CongratulationsMessageComponent } from './congratulations-message/congr
     EventHandlingComponent,
     MultipleChoiceComponent,
     CounterButtonComponent,
-    CongratulationsMessageComponent
+    CongratulationsMessageComponent,
+    CounterButtonPageComponent,
+    ParamsExampleComponent
   ],
   imports: [
     BrowserModule,

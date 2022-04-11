@@ -7,11 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-angular-app';
-  count: number = 2;
-
-  incrementCount(): void {
-    this.count += 1;
-  }
+  
 
   doSomething(): void {
     alert("doing something")

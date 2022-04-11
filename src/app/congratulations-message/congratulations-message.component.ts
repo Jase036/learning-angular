@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-congratulations-message',
@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./congratulations-message.component.css']
 })
 export class CongratulationsMessageComponent implements OnInit {
-
+  @Input() count: number = 0;
+  @Input() threshold: number = 10;
+  
   constructor() { }
 
   ngOnInit(): void {
